@@ -353,6 +353,26 @@ main,
     linear-gradient(210deg, #241910, #12182a);
 }
 
+.project__canvas--c {
+  background:
+    linear-gradient(145deg, rgba(31, 214, 176, 0.28), transparent 48%),
+    linear-gradient(220deg, #0b1f28, #071018);
+}
+
+.project__links {
+  margin-top: 1rem;
+}
+
+.project__links a {
+  color: var(--teal);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project__links a:hover {
+  text-decoration: underline;
+}
+
 .mock {
   position: absolute;
   border-radius: 12px;
