@@ -359,18 +359,49 @@ main,
     linear-gradient(220deg, #0b1f28, #071018);
 }
 
+.project__canvas--d {
+  background:
+    linear-gradient(135deg, rgba(120, 160, 255, 0.22), transparent 50%),
+    linear-gradient(210deg, #141c33, #0b1020);
+}
+
+.project__canvas--e {
+  background:
+    linear-gradient(145deg, rgba(232, 165, 75, 0.18), transparent 45%),
+    linear-gradient(230deg, #1d1420, #10131f);
+}
+
+.section__sub {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  max-width: 54ch;
+  line-height: 1.7;
+}
+
 .project__links {
   margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
 }
 
-.project__links a {
-  color: var(--teal);
+.project__link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ink);
   font-weight: 600;
   text-decoration: none;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(94, 207, 192, 0.35);
+  background: rgba(94, 207, 192, 0.12);
+  transition: transform 0.18s ease, background 0.18s ease;
 }
 
-.project__links a:hover {
-  text-decoration: underline;
+.project__link:hover {
+  transform: translateY(-1px);
+  background: rgba(94, 207, 192, 0.22);
+  text-decoration: none;
 }
 
 .mock {
